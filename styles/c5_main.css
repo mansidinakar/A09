@@ -20,7 +20,7 @@ a:focus, a:hover {
 }
 /* the styles for the header */
 header {
-	padding: 1.5em 0 2em 0;
+	padding: 1.5em  2em ;
 	border-bottom: 3px solid #931420;
 	background-image: -moz-linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
@@ -34,15 +34,16 @@ header {
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
+	padding: 30px 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
+	padding: 30px 30px;
 }
 header img {
 	float: left;
+	padding: 30px 30px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
